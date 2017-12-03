@@ -1,0 +1,14 @@
+body {
+    background: #fff;
+    margin: 0;
+    overflow-x: hidden;
+	overflow-y: auto;
+    padding: 0;
+    font-family: Rubik, Arial, sans-serif;
+}
+
+#root {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1080px;
+}

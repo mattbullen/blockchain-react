@@ -1,0 +1,30 @@
+{
+  "name": "bc-vets-server",
+  "version": "0.1.0",
+  "engines": {
+    "node": "6.11.x"
+  },
+  "scripts": {
+    "start": "node server",
+    "heroku-postbuild": "cd react-ui/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "react-ui/node_modules"
+  ],
+  "dependencies": {
+    "async": "^2.0.1",
+    "aws-sdk": "^2.134.0",
+    "body-parser": "^1.15.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "node-fetch": "^1.7.3",
+    "storj-lib": "^6.3.2",
+    "through": "^2.3.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mars/heroku-cra-node.git"
+  },
+  "devDependencies": {}
+}
