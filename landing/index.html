@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ISMT E-599 Demo">
+    <meta name="author" content="Matthew Bullen">
+    <title>Immer</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/pe-icons.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/loop.png">
+	
+    <script type="text/javascript">
+		jQuery(document).ready(function($){
+		'use strict';
+			jQuery('body').backstretch([
+                                "images/bg/0.jpg",
+				"images/bg/1.jpg",
+				"images/bg/2.jpg",
+				"images/bg/3.jpg",
+				"images/bg/4.jpg",
+				"images/bg/5.jpg",
+                                "images/bg/6.jpg"
+			], {duration: 5000, fade: 500});
+		});
+    </script>
+</head><!--/head-->
+<body>
+<div id="preloader"></div>
+    <header class="navbar navbar-inverse navbar-fixed-top opaqued" role="banner">
+    <div id="search-wrapper">
+        <div class="container">
+            <input id="search-box" placeholder="Search">
+        </div>
+    </div>
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html"><h1><span class="pe-7s-loop bounce-in"></span> Immer</h1></a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Home</a></li>                    
+                    <li><a href="#services">Technology</a></li>
+                    <li><a href="#about-us">The Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><span class="search-trigger"><i class="fa fa-search"></i></span></li>
+                </ul>
+            </div>
+        </div>
+    </header><!--/header-->
+
+    <section id="main-slider" class="no-margin">
+        <div class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="carousel-content center centered">
+                                	<span class="home-icon pe-7s-loop bounce-in"></span>
+                                    <h2 class="boxed animation animated-item-1 fade-down">WE ARE IMMER</h2>
+									<br>
+                                    <p class="boxed animation animated-item-2 fade-up">Your pet's health records - any pet, any vet, always yours</p>
+                                    <br>
+                                    <a class="btn btn-md animation bounce-in" href="#">More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->
+    </section><!--/#main-slider-->
+
+    <div id="content-wrapper">
+        <section id="services" class="white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="center gap fade-down section-heading">
+                            <h2 class="main-title">Any pet, any vet</h2>
+                            <hr>
+                            <p>Our records management platform is designed for pets and their people</p>
+                        </div>                
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-block">
+                            <div class="pull-left bounce-in">
+                                <i class="fa fa-sitemap fa fa-md"></i>
+                            </div>
+                            <div class="media-body fade-up">
+                                <h3 class="media-heading">A blockchain registry ensures that you always have all of your pet's records.</h3>
+                                <p>With blockchain, your pet's records are embedded in a cloud database where they are protected from tampering and deletion. Each record is encrypted and signed with a secure digital signature that validates its authenticity.</p>
+			    </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-block">
+                            <div class="pull-left bounce-in">
+                                <i class="fa fa-cloud-upload fa fa-md"></i>
+                            </div>
+                            <div class="media-body fade-up">
+                                <h3 class="media-heading">Ultra-reliable cloud storage means that your pet's records are always available, whenever you need them.</h3>
+                                <p>24 x 7 backed up cloud storage with 0% fault tolerance provides peace of mind when it comes to accessing your pet's health data, anywhere, anytime.</p>
+			    </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-block">
+                            <div class="pull-left bounce-in">
+                                <i class="fa fa-bar-chart-o fa fa-md"></i>
+                            </div>
+                            <div class="media-body fade-up">
+                                <h3 class="media-heading">Advanced veterinary analytics help your pet receive the most up to date and highest quality of care.</h3>
+                                <p>Immer's advanced analytics, powered by machine learning, analyze your pet's health data and epidemiological environment to recommend the care options best suited to your pet.</p>
+			    </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                </div><!--/.row-->
+                <div class="gap"></div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-block">
+                            <div class="pull-left bounce-in">
+                                <i class="fa fa-thumbs-o-up fa fa-md"></i>
+                            </div>
+                            <div class="media-body fade-up">
+                                <h3 class="media-heading">An intuitive voice assistant schedules veterinary appointments for you whenever your pet needs one.</h3>
+                                <p>Just pick up your phone, invoke Siri, Google Home or Alexa, and say "Open Immer. I need to schedule an appointment." Immer's voice assistant will respond with scheduling options and confirm your pet's appointment.</p>
+			    </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-block">
+                            <div class="pull-left bounce-in">
+                                <i class="fa fa-globe fa fa-md"></i>
+                            </div>
+                            <div class="media-body fade-up">
+                                <h3 class="media-heading">Our platform guarantees that your pet's records are portable anywhere.</h3>
+                                <p>Whenever you switch to a new veterinarian, Immer will securely port your records to your pet's new care giver. You can download your pet's records for your own use at any time.</p>
+			    </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-block">
+                            <div class="pull-left bounce-in">
+                                <i class="fa fa-smile-o fa fa-md"></i>
+                            </div>
+                            <div class="media-body fade-up">
+                                <h3 class="media-heading">Immer is always free to pet owners!</h3>
+                                <p>At Immer, we believe that when it comes to managing your pet's health, you should have access to state of the art technology at no cost.</p>
+			    </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                </div><!--/.row-->
+            </div>
+        </section>
+
+		<section id="testimonial-carousel" class="divider-section">
+	            <div class="container">
+	                <div class="row">
+                    	<div class="center gap fade-down section-heading">
+                            <h2 class="main-title">What Our Clients Say</h2>
+                            <hr>
+                            <p>Lots of nice things, usually</p>
+                            <div class="gap"></div>
+                        </div>                         
+	                    <div class='col-md-offset-2 col-md-8 fade-up'>
+	                        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+	                            <!-- Bottom Carousel Indicators -->
+	                            <ol class="carousel-indicators">
+	                                <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+	                                <li data-target="#quote-carousel" data-slide-to="1"></li>
+	                                <li data-target="#quote-carousel" data-slide-to="2"></li>
+	                            </ol>                                
+	                            <!-- Carousel Slides / Quotes -->
+	                            <div class="carousel-inner">                                
+	                              <!-- Quote 1 -->
+	                                <div class="item active">
+	                                    <blockquote>
+	                                        <div class="row">
+	                                            <div class="col-sm-3 text-center">
+	                                                <img class="img-responsive" src="images/quotes/elon.jpg" style="width: 100px;height:100px;">
+	                                            </div>
+	                                            <div class="col-sm-9">
+	                                                <p>These are the only people I would trust with my pet snail.</p>
+	                                                <span>- Elon Musk</span>
+	                                            </div>
+	                                        </div>
+	                                    </blockquote>
+	                                </div>
+	                                <!-- Quote 2 -->
+	                                <div class="item">
+	                                    <blockquote>
+	                                        <div class="row">
+	                                            <div class="col-sm-3 text-center">
+	                                                <img class="img-responsive" src="images/quotes/dog.jpg" style="width: 100px;height:100px;">
+	                                            </div>
+	                                            <div class="col-sm-9">
+	                                                <p>13/10.</p>
+	                                                <span>- A Dog</span>
+	                                            </div>
+	                                        </div>
+	                                    </blockquote>
+	                                </div>
+	                                <!-- Quote 3 -->
+	                                <div class="item">
+	                                    <blockquote>
+	                                        <div class="row">
+	                                            <div class="col-sm-3 text-center">
+	                                                <img class="img-responsive" src="images/quotes/cat.jpg" style="width: 100px;height:100px;">
+	                                            </div>
+	                                            <div class="col-sm-9">
+	                                                <p>Terrible.</p>
+	                                                <span>- Grumpy Cat</span>
+	                                            </div>
+	                                        </div>
+	                                    </blockquote>
+	                                </div>
+	                            </div>                                     
+	                        </div> 
+	                    </div>
+	                </div>
+			</div>
+      	</section>
+
+        <section id="about-us" class="white">
+        	<div class="container">
+	            <div class="row">
+	                <div class="col-md-12">
+	                    <div class="center gap fade-down section-heading">
+	                        <h2 class="main-title">Company History</h2>
+	                        <hr>
+	                        <p>Founded by Four Harvard Extension School Graduate Students</p>
+	                    </div>                
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="col-md-10 col-md-offset-1 fade-up">
+			    <p>Immer originated from ISMT E-599, Harvard Extension School's graduate capstone seminar in digital enterprise. The company concept was inspired by a shared interest in novel blockchain applications and advanced analytics, especially machine learning - as well as our pets!</p>
+			</div>
+	            </div>
+               
+	            <div class="gap"></div>
+	            <div class="center gap fade-down section-heading">
+	                <h2 class="main-title">Meet The Team</h2>
+	                <hr>
+	            </div> 
+	            <div class="gap"></div>
+
+	            <div id="meet-the-team" class="row">
+	                <div class="col-md-3 col-xs-6">
+	                    <div class="center team-member">
+	                        <img class="img-responsive img-thumbnail bounce-in img-team" src="images/team/placeholder.jpg" alt="">
+	                        <div class="team-content fade-up">
+	                            <h5>Vasudevan Swamidurai<small class="role muted">Founder</small></h5>
+	                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	                            <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+	                        </div>
+	                    </div>
+	                </div>
+
+	                <div class="col-md-3 col-xs-6">
+	                    <div class="center team-member">
+	                        <img class="img-responsive img-thumbnail bounce-in img-team" src="images/team/placeholder.jpg" alt="">
+	                        <div class="team-content fade-up">
+	                            <h5>Christian<br>Schlubach<small class="role muted">Founder</small></h5>
+	                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	                            <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+	                        </div>
+	                    </div>
+	                </div>        
+	                <div class="col-md-3 col-xs-6">
+	                    <div class="center team-member">
+	                        <img class="img-responsive img-thumbnail bounce-in img-team" src="images/team/placeholder.jpg" alt="">
+	                        <div class="team-content fade-up">
+	                            <h5>Sumit<br>Dadhwal<small class="role muted">Founder</small></h5>
+	                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	                            <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+	                        </div>
+	                    </div>
+	                </div>        
+	                <div class="col-md-3 col-xs-6">
+	                    <div class="center team-member">
+	                        <img class="img-responsive img-thumbnail bounce-in img-team" src="images/team/placeholder.jpg" alt="">
+	                        <div class="team-content fade-up">
+	                            <h5>Matthew<br>Bullen<small class="role muted">Founder</small></h5>
+	                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	                            <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div><!--/#meet-the-team--> 
+            </div>      
+        </section>
+
+        <section id="stats" class="divider-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-xs-6">
+                        <div class="center bounce-in">
+                            <span class="stat-icon"><span class="pe-7s-sun bounce-in"></span></span>
+                            <h1><span class="counter">5470209</span></h1>
+                            <h3>RECORDS</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <div class="center bounce-in">
+                            <span class="stat-icon"><span class="pe-7s-star bounce-in"></span></span>
+                            <h1><span class="counter">16875</span></h1>
+                            <h3>DOGS</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <div class="center bounce-in">
+                            <span class="stat-icon"><span class="pe-7s-mouse bounce-in"></span></span>
+                            <h1><span class="counter">14053</span></h1>
+                            <h3>CATS</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <div class="center bounce-in">
+                            <span class="stat-icon"><span class="pe-7s-pen bounce-in"></span></span>
+                            <h1><span class="counter">4815</span></h1>
+                            <h3>VETERINARIANS</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+            <section id="contact" class="white">
+                <div class="container">
+                    <div class="center fade-down section-heading">
+                        <h2 class="main-title">Get In Touch</h2>
+                        <hr>
+                        <p>We'd love to hear from you</p>
+                    </div>    
+                    <div class="gap"></div>
+                    <div class="row">
+                        <div class="col-md-4 fade-up">
+                            <h3>Contact</h3>
+                            <p>
+								52 Oxford Street<br/>
+                                Cambridge, Massachusetts 02138<br/>
+                                +1 111-222-3333<br/>
+                                team@immer.com
+                            </p>
+                        </div><!-- col -->
+                    
+                        <div class="col-md-8 fade-up">
+                            <h3>Email</h3>
+                            <div id="message"></div>
+                            <form method="post" action="sendemail.php" id="contactform">
+                                <input type="text" name="name" id="name" placeholder="Name" />
+                                <input type="text" name="email" id="email" placeholder="Email" />
+                                <input type="text" name="website" id="website" placeholder="Phone" />
+                                <textarea name="comments" id="comments" placeholder="Your message"></textarea>
+                                <input class="btn btn-outlined btn-primary" type="submit" name="submit" value="Send" />
+                            </form>
+                        </div><!-- col -->
+                    </div><!-- row -->  
+                    <div class="gap"></div>         
+                </div>
+            </section>
+        </div>
+        
+    <div id="footer-wrapper">
+        <footer id="footer" class=""></footer><!--/#footer-->
+    </div>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>   
+    <script src="js/init.js"></script>
+</body>
+</html>
