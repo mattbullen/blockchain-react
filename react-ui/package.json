@@ -4,7 +4,7 @@
   "private": true,
   "devDependencies": {
     "babel-polyfill": "^6.23.0",
-    "react-scripts": "^0.9.5"
+    "react-scripts": "^5.0.1"
   },
   "dependencies": {
     "es6-promise": "^4.1.1",
